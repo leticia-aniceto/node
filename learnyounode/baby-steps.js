@@ -1,5 +1,6 @@
-const arrayBabySteps = process.argv;
+const babySteps = process.argv;
 
-let sum = arrayBabySteps.slice(2).reduce((prev, curr) => Number(prev) + Number(curr));
+let sum = babySteps.slice(2).reduce((prev, curr) => Number(prev) + Number(curr));
 
 console.log(sum);
+
